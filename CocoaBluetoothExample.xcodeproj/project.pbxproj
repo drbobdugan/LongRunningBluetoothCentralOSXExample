@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28A82BA01C18927C00292F4F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A82B9F1C18927C00292F4F /* AppDelegate.m */; };
+		28A82BA31C18927C00292F4F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A82BA21C18927C00292F4F /* main.m */; };
+		28A82BA61C18927C00292F4F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A82BA51C18927C00292F4F /* ViewController.m */; };
+		28A82BA81C18927C00292F4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28A82BA71C18927C00292F4F /* Assets.xcassets */; };
+		28A82BAB1C18927C00292F4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28A82BA91C18927C00292F4F /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		28A82B9B1C18927C00292F4F /* CocoaBluetoothExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocoaBluetoothExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28A82B9E1C18927C00292F4F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		28A82B9F1C18927C00292F4F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		28A82BA21C18927C00292F4F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		28A82BA41C18927C00292F4F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		28A82BA51C18927C00292F4F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		28A82BA71C18927C00292F4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		28A82BAA1C18927C00292F4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		28A82BAC1C18927C00292F4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28A82B981C18927C00292F4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28A82B921C18927C00292F4F = {
+			isa = PBXGroup;
+			children = (
+				28A82B9D1C18927C00292F4F /* CocoaBluetoothExample */,
+				28A82B9C1C18927C00292F4F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28A82B9C1C18927C00292F4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28A82B9B1C18927C00292F4F /* CocoaBluetoothExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28A82B9D1C18927C00292F4F /* CocoaBluetoothExample */ = {
+			isa = PBXGroup;
+			children = (
+				28A82B9E1C18927C00292F4F /* AppDelegate.h */,
+				28A82B9F1C18927C00292F4F /* AppDelegate.m */,
+				28A82BA41C18927C00292F4F /* ViewController.h */,
+				28A82BA51C18927C00292F4F /* ViewController.m */,
+				28A82BA71C18927C00292F4F /* Assets.xcassets */,
+				28A82BA91C18927C00292F4F /* Main.storyboard */,
+				28A82BAC1C18927C00292F4F /* Info.plist */,
+				28A82BA11C18927C00292F4F /* Supporting Files */,
+			);
+			path = CocoaBluetoothExample;
+			sourceTree = "<group>";
+		};
+		28A82BA11C18927C00292F4F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				28A82BA21C18927C00292F4F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28A82B9A1C18927C00292F4F /* CocoaBluetoothExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28A82BAF1C18927C00292F4F /* Build configuration list for PBXNativeTarget "CocoaBluetoothExample" */;
+			buildPhases = (
+				28A82B971C18927C00292F4F /* Sources */,
+				28A82B981C18927C00292F4F /* Frameworks */,
+				28A82B991C18927C00292F4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocoaBluetoothExample;
+			productName = CocoaBluetoothExample;
+			productReference = 28A82B9B1C18927C00292F4F /* CocoaBluetoothExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28A82B931C18927C00292F4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Bob Dugan";
+				TargetAttributes = {
+					28A82B9A1C18927C00292F4F = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 28A82B961C18927C00292F4F /* Build configuration list for PBXProject "CocoaBluetoothExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28A82B921C18927C00292F4F;
+			productRefGroup = 28A82B9C1C18927C00292F4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28A82B9A1C18927C00292F4F /* CocoaBluetoothExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28A82B991C18927C00292F4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28A82BA81C18927C00292F4F /* Assets.xcassets in Resources */,
+				28A82BAB1C18927C00292F4F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28A82B971C18927C00292F4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28A82BA61C18927C00292F4F /* ViewController.m in Sources */,
+				28A82BA31C18927C00292F4F /* main.m in Sources */,
+				28A82BA01C18927C00292F4F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		28A82BA91C18927C00292F4F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28A82BAA1C18927C00292F4F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28A82BAD1C18927C00292F4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		28A82BAE1C18927C00292F4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		28A82BB01C18927C00292F4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CocoaBluetoothExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = stonehill.edu.CocoaBluetoothExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		28A82BB11C18927C00292F4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CocoaBluetoothExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = stonehill.edu.CocoaBluetoothExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28A82B961C18927C00292F4F /* Build configuration list for PBXProject "CocoaBluetoothExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28A82BAD1C18927C00292F4F /* Debug */,
+				28A82BAE1C18927C00292F4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28A82BAF1C18927C00292F4F /* Build configuration list for PBXNativeTarget "CocoaBluetoothExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28A82BB01C18927C00292F4F /* Debug */,
+				28A82BB11C18927C00292F4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28A82B931C18927C00292F4F /* Project object */;
+}
