@@ -12,6 +12,7 @@
 		28A82BA61C18927C00292F4F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A82BA51C18927C00292F4F /* ViewController.m */; };
 		28A82BA81C18927C00292F4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28A82BA71C18927C00292F4F /* Assets.xcassets */; };
 		28A82BAB1C18927C00292F4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28A82BA91C18927C00292F4F /* Main.storyboard */; };
+		28A82BB51C1892CE00292F4F /* BTLECentralViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A82BB41C1892CE00292F4F /* BTLECentralViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,9 @@
 		28A82BA71C18927C00292F4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28A82BAA1C18927C00292F4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		28A82BAC1C18927C00292F4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28A82BB21C1892B900292F4F /* TransferService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransferService.h; sourceTree = "<group>"; };
+		28A82BB31C1892C500292F4F /* BTLECentralViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTLECentralViewController.h; sourceTree = "<group>"; };
+		28A82BB41C1892CE00292F4F /* BTLECentralViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTLECentralViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,9 @@
 				28A82B9F1C18927C00292F4F /* AppDelegate.m */,
 				28A82BA41C18927C00292F4F /* ViewController.h */,
 				28A82BA51C18927C00292F4F /* ViewController.m */,
+				28A82BB21C1892B900292F4F /* TransferService.h */,
+				28A82BB31C1892C500292F4F /* BTLECentralViewController.h */,
+				28A82BB41C1892CE00292F4F /* BTLECentralViewController.m */,
 				28A82BA71C18927C00292F4F /* Assets.xcassets */,
 				28A82BA91C18927C00292F4F /* Main.storyboard */,
 				28A82BAC1C18927C00292F4F /* Info.plist */,
@@ -146,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				28A82BA61C18927C00292F4F /* ViewController.m in Sources */,
+				28A82BB51C1892CE00292F4F /* BTLECentralViewController.m in Sources */,
 				28A82BA31C18927C00292F4F /* main.m in Sources */,
 				28A82BA01C18927C00292F4F /* AppDelegate.m in Sources */,
 			);

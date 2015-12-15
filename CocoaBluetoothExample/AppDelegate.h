@@ -7,9 +7,11 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "BTLECentralViewController.h"
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
-
 @end
+
+BTLECentralViewController *controller;
 

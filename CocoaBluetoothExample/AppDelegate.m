@@ -15,7 +15,8 @@
 @implementation AppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-    // Insert code here to initialize your application
+    NSLog(@"%s:",__PRETTY_FUNCTION__);
+    controller = [[BTLECentralViewController alloc] init];
 }
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {
