@@ -86,13 +86,13 @@
     // The state must be CBCentralManagerStatePoweredOn...
     NSArray<NSUUID *>  *identifiers = @[[[NSUUID alloc] initWithUUIDString:PERIPHERAL_UUID]];
     NSArray<CBPeripheral *> *peripherals = [_centralManager retrievePeripheralsWithIdentifiers:identifiers];
-    
     NSLog(@"%s: peripheral: %@",__PRETTY_FUNCTION__,peripherals[0]);
-    //_discoveredPeripheral = peripherals[0];
-    //[_centralManager connectPeripheral:_discoveredPeripheral options:nil];
+    _discoveredPeripheral = peripherals[0];
 
+    [_centralManager connectPeripheral:_discoveredPeripheral options:nil];
+     // [_centralManager scanForPeripheralsWithServices:@[[CBUUID UUIDWithString:TRANSFER_SERVICE_UUID]] options:@{CBCentralManagerScanOptionAllowDuplicatesKey : @YES }];
     // ... so start scanning
-    [self scan];
+    //[self scan];
     
 }
 
@@ -160,8 +160,8 @@
     NSLog(@"Peripheral Connected");
     
     // Stop scanning
-    [_centralManager stopScan];
-    NSLog(@"Scanning stopped");
+    //[_centralManager stopScan];
+    //NSLog(@"Scanning stopped");
     
     // Clear the data that we may already have
     [self.data setLength:0];
